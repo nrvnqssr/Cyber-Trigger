@@ -1,0 +1,34 @@
+{
+    "name": "WeaponControll",
+    "maps": [
+        {
+            "name": "OnWeaponControll",
+            "id": "01ead258-22f0-44a3-8b30-1f31be1a14de",
+            "actions": [
+                {
+                    "name": "SwitchWeapon",
+                    "type": "Button",
+                    "id": "c0b9660c-3a13-4cd5-a0c5-b076ece75fac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bf8bb1ae-f2fe-4563-bd2a-411e447f158c",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

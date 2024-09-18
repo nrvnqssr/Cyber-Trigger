@@ -1,0 +1,317 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Professional' Language: 'ru' Physical Memory: 16169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UNITY\Unity Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UNITY/Unity Projects/HDRPBananaShooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+5193
+Successfully changed project path to: E:/UNITY/Unity Projects/HDRPBananaShooter
+E:/UNITY/Unity Projects/HDRPBananaShooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2352] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1225754894 [EditorId] 1225754894 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IHM2IEN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2352] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1225754894 [EditorId] 1225754894 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IHM2IEN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 8.38 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path E:/UNITY/Unity Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UNITY/Unity Projects/HDRPBananaShooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+d3d12: loaded!
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:          NVIDIA
+    VRAM:            8038 MB
+    App VRAM Budget: 7270 MB
+    Driver:          31.0.15.4633
+d3d12: Profiler is enabled, but stable power state is not. GPU timing errors are expected.
+Initialize mono
+Mono path[0] = 'E:/UNITY/Unity Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UNITY/Unity Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UNITY/Unity Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UNITY/Unity Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002427 seconds.
+- Loaded All Assemblies, in  0.430 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.630 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.918 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-HDRPBananaShooter
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+d3d12: upload buffer was full! Waited for COPY queue for 2.741 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.003 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.850 ms.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.204 seconds
+Domain Reload Profiling: 3123ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (173ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2205ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1945ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (1477ms)
+			ProcessInitializeOnLoadMethodAttributes (349ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.60 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 137 unused Assets / (2.6 MB). Loaded Objects now: 7879.
+Memory consumption went from 393.6 MB to 391.1 MB.
+Total: 3.734167 ms (FindLiveObjects: 0.317344 ms CreateObjectMapping: 0.230469 ms MarkObjects: 2.738958 ms  DeleteObjects: 0.434792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30850.506940 seconds.
+  path: Assets/Yeah/Shaders/Crosshair.shadergraph
+  artifactKey: Guid(571a9f2db22df0146a3e9a3c103c0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeah/Shaders/Crosshair.shadergraph using Guid(571a9f2db22df0146a3e9a3c103c0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382b7c95e22f45d394efe20d2bea318f') in 2.567054 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 103.611629 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/builddispatchindirect.compute
+  artifactKey: Guid(4eb1b418be7044c40bb5200496c50f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/builddispatchindirect.compute using Guid(4eb1b418be7044c40bb5200496c50f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855903c19514c092d31bd321fc27ebde') in 0.029354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/ClearLightLists.compute
+  artifactKey: Guid(743eb3491795b9545955695d591195a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/ClearLightLists.compute using Guid(743eb3491795b9545955695d591195a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e44f11daf830e8f4132d2806bf12ec') in 0.015815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/Deferred.compute
+  artifactKey: Guid(0b64f79746d2daf4198eaf6eab9af259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/Deferred.compute using Guid(0b64f79746d2daf4198eaf6eab9af259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2fe5ec71c59934fff35cc6a115ae9e') in 0.001239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020073 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/HDShadowLoop.hlsl
+  artifactKey: Guid(b005c5ffc28fd7148baab3d616ef53d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/HDShadowLoop.hlsl using Guid(b005c5ffc28fd7148baab3d616ef53d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b422dfa2a5b29ab87a5481af1ba86478') in 0.016577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.027455 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/LightingConvexHullUtils.hlsl
+  artifactKey: Guid(7a025524906ace949b463f8f79a03b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/LightingConvexHullUtils.hlsl using Guid(7a025524906ace949b463f8f79a03b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77980cb68a347d2188fd0153dd94fe0') in 0.000978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-clustered.compute
+  artifactKey: Guid(0bb1b7e0ddcd5c44baf3ddc7456eb196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-clustered.compute using Guid(0bb1b7e0ddcd5c44baf3ddc7456eb196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0639161af9867474246d9a277dca672') in 0.000730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/scrbound.compute
+  artifactKey: Guid(728dce960f8a9c44bbc3abb3b851d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/scrbound.compute using Guid(728dce960f8a9c44bbc3abb3b851d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74a00549211b40048c0827fc4254cfb') in 0.000657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/LightLoopDef.hlsl
+  artifactKey: Guid(bb7311b8d11d7ef42971ee6bed87ecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/LightLoopDef.hlsl using Guid(bb7311b8d11d7ef42971ee6bed87ecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053768a51905768fdb38696752509c97') in 0.000953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/ShaderVariablesLightLoop.hlsl
+  artifactKey: Guid(63d561c067f228044bff7c3922047bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/ShaderVariablesLightLoop.hlsl using Guid(63d561c067f228044bff7c3922047bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e98f91ec59b01133be5cff49e38161f') in 0.001047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/SortingComputeUtils.hlsl
+  artifactKey: Guid(66b6d3029d5cdb2498af99c4cc141e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/SortingComputeUtils.hlsl using Guid(66b6d3029d5cdb2498af99c4cc141e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f03858b7ff1cf2226a67a473734215b') in 0.000886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/ShaderBase.hlsl
+  artifactKey: Guid(3c90176b54c922b4e9cf65c9ec9cb750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/ShaderBase.hlsl using Guid(3c90176b54c922b4e9cf65c9ec9cb750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be2bbf138b320c09ee96e24e740923f') in 0.000832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.081043 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/DeferredTile.shader
+  artifactKey: Guid(dedaf4ea0d134ca4aad1d95a558c46e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/DeferredTile.shader using Guid(dedaf4ea0d134ca4aad1d95a558c46e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecf58639554dcaaee7b17a08f83d7b0') in 0.001894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 374.209478 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightEvaluation.hlsl
+  artifactKey: Guid(7044f5832067c044ea7552c5d52a8a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightEvaluation.hlsl using Guid(7044f5832067c044ea7552c5d52a8a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999a34d49cbd10129c4e781f5b930899') in 0.001316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013012 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Lighting.hlsl
+  artifactKey: Guid(5b115c7d70db5004ab39a1cfbead4db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Lighting.hlsl using Guid(5b115c7d70db5004ab39a1cfbead4db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdff07aeb42366b15b5baa6d1ff32d58') in 0.001427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002837 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/PunctualLightCommon.hlsl
+  artifactKey: Guid(23b4e956f03e39c4ba5cc5b33d6cb11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/PunctualLightCommon.hlsl using Guid(23b4e956f03e39c4ba5cc5b33d6cb11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b0efef4d04218ac436a8dca60604de') in 0.000779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
